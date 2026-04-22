@@ -58,17 +58,51 @@
 
    <p>
    
-- Payment and Bills Management
-- Social login with Google
-- Firebase MLKit with QRCode Reading
-- Camera Usage
-- Boleto Registration
-   - Ticket name
-   - Maturity
-   - Price
-   - QRCode
-- Query Statements
-- Among many other amazing things!
+### Core Features
+- ✅ Payment and Bills Management
+- ✅ Social login with Google
+- ✅ Firebase MLKit with QRCode Reading
+- ✅ Camera Usage
+- ✅ Boleto Registration (Name, Due Date, Price, QRCode)
+- ✅ Query Statements
+
+### 🎨 UI/UX Features
+- ✅ **Dark Mode** - Toggle between Light and Dark themes
+- ✅ **11 Bill Categories** - Utilities, Water, Internet, Phone, Rent, Credit Card, Insurance, Taxes, Education, Health, Others
+- ✅ **Category Icons & Colors** - Visual distinction for each category
+- ✅ **Connectivity Banner** - Shows offline status when no internet
+
+### 🔍 Search & Filter
+- ✅ **Search Bar** - Search bills by name, category, or barcode
+- ✅ **Category Filter** - Filter bills by category
+- ✅ **Status Filter** - Filter by Paid/Pending status
+
+### 📊 Bill Management
+- ✅ **Bill Status (Paid/Pending)** - Track payment status with toggle
+- ✅ **Edit Bills** - Modify existing bill details
+- ✅ **Delete Bills** - Remove bills with confirmation
+- ✅ **Mark as Paid** - Quick toggle to mark bills as paid/pending
+
+### 📤 Export & Sharing
+- ✅ **Export to PDF** - Generate PDF report of bills
+- ✅ **Export to CSV** - Export bills as CSV spreadsheet
+- ✅ **Share via Text** - Share bill details via any app
+
+### 🔔 Notifications
+- ✅ **Due Date Reminders** - Get notified 1 day before bill due date at 9 AM
+- ✅ **Local Notifications** - Works without internet
+
+### ☁️ Cloud & Security
+- ✅ **Cloud Database Sync** - Sync bills across devices via Firebase Firestore
+- ✅ **Two-way Sync** - Automatic sync to and from cloud
+- ✅ **AES-256 Encryption** - Bill data encrypted in local storage
+- ✅ **Input Sanitization** - Protection against injection attacks
+- ✅ **Session Management** - 30-day session timeout for security
+
+### 👤 User Features
+- ✅ **User Profile** - Edit name, toggle dark mode, logout
+- ✅ **Theme Switching** - Persistent theme preference
+- ✅ **Last Sync Display** - See when data was last synced
 
    </p>
 
