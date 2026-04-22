@@ -1,0 +1,58 @@
+name: payflow
+description: PayFlow App
+publish_to: 'none'
+version: 2.0.1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  animated_card: ^2.0.0
+  camera: ^0.11.0+2
+  connectivity_plus: ^6.0.3
+  csv: ^6.0.0
+  cupertino_icons: ^1.0.8
+  cloud_firestore: ^5.2.1
+  encrypt: ^5.0.1
+  firebase_core: ^3.3.0
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_local_notifications: ^17.2.1
+  flutter_masked_text2: ^0.9.1
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+  google_mlkit_barcode_scanning: ^0.12.0
+  google_sign_in: ^6.2.1
+  google_sign_in_web: ^0.12.4
+  image_picker: ^1.1.2
+  image_picker_for_web: ^3.0.5
+  path_provider: ^2.1.3
+  pdf: ^3.10.8
+  permission_handler: ^11.3.1
+  share_plus: ^10.0.0
+  shared_preferences: ^2.3.2
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_icons:
+  image_path: "assets/images/logofull.png"
+  image_path_android: "assets/images/logofull.png"
+  image_path_ios: "assets/images/logofull.png"
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  web:
+    generate: true
+    image_path: "assets/images/icon-1024x1024.png"
+    background_color: "#660099"
+    theme_color: "#660099"
